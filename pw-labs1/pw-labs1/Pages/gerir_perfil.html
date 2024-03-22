@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerir Perfil</title>
+  <link rel="stylesheet" href="/Css/Gerir_perfil.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="usuario">
+        <h1>Olá, Zé Toni</h1>
+        <a href="/Pages/tarefas.html" class="botao-voltar">Voltar</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="dados-pessoais">
+        <h1>Dados Pessoais</h1>
+        <form action="#">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" value="Zé Toni">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" value="ze.toni@email.com">
+          <label for="data-nascimento">Data de Nascimento:</label>
+          <input type="date" id="data-nascimento" name="data-nascimento" value="2000-10-10">
+          <label for="morada">Morada:</label>
+          <input type="text" id="morada" name="morada" value="Rua das Flores, 123">
+          <label for="codigo-postal">Código Postal:</label>
+          <input type="text" id="codigo-postal" name="codigo-postal" value="4990-123">
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade" value="Viana do Castelo">
+          <label for="pais">País:</label>
+          <select id="pais" name="pais">
+            <option value="Portugal">Portugal</option>
+            <option value="Espanha">Espanha</option>
+            <option value="França">França</option>
+            <option value="Alemanha">Alemanha</option>
+            <option value="Angola">Angola</option>
+          </select>
+          <button type="submit">Guardar Alterações</button>
+        </form>
+      </section>
+
+      <section class="alterar-senha">
+        <h1>Alterar Senha</h1>
+        <form action="#">
+          <label for="senha-atual">Senha Atual:</label>
+          <input type="password" id="senha-atual" name="senha-atual">
+          <label for="nova-senha">Nova Senha:</label>
+          <input type="password" id="nova-senha" name="nova-senha">
+          <label for="confirmar-senha">Confirmar Senha:</label>
+          <input type="password" id="confirmar-senha" name="confirmar-senha">
+          <button type="submit">Alterar Senha</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Meu site</p>
+  </footer>
+  <script src="/JavaScript/script.js"></script>
+</body>
+</html>
